@@ -1,1 +1,0 @@
-# Face Detection with SSD300-MobileNet
