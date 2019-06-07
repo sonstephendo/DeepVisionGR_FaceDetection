@@ -2,7 +2,7 @@
 import os
 
 # The directories that contain the images.
-DRIVE_BASE_PATH = "../dataset"  # Google Colab base path
+DRIVE_BASE_PATH = "./dataset"  # Google Colab base path
 # The paths to the image sets
 TRAIN_WIDER_IMAGES_DIR = os.path.sep.join((DRIVE_BASE_PATH, "WIDER_train/images"))
 VAL_WIDER_IMAGE_DIR = os.path.sep.join((DRIVE_BASE_PATH, "WIDER_val/images"))
