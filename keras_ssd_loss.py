@@ -227,5 +227,6 @@ class SSDLoss:
         total_loss = (self.beta * class_loss + self.alpha * loc_loss) / tf.maximum(
             1.0, n_positive
         )  # In case `n_positive == 0`
+        total_loss = total_loss * tf.to_float(batch_size)
 
         return total_loss
